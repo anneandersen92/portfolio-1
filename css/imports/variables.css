@@ -1,0 +1,30 @@
+:root {
+    /* colors */
+    --clr-rainydays: #748d93;
+    --clr-science: #207c95;
+    --clr-ohsheet: #CFC9C0;
+
+    --clr-white: #ffffff;
+    --clr-charcoal: #323232;
+
+    /* typography */
+    --ff-heading: '';
+    --ff-body: '';
+
+    --fs-h1: 4rem;
+    --fs-h2: 3rem;
+    --fs-h3: 2rem;
+    --fs-body: 1rem;
+    --fs-body-pc: 1.2rem;
+
+    --fw-300: 300;
+    --fw-500: 500;
+
+    --tt-upper: uppercase;
+    --tt-lower: lowercase;
+    --tt-cap: capitalize;
+
+    --ls-1: 1px;
+    --ls-2: 2px;
+    --ls-3: 3px;
+}
