@@ -1,16 +1,16 @@
-import { projects } from "./data/projects.js";
+import { projectsData } from "./data/projects.js";
 
-const projectsContainer = document.querySelector(".projects")
+const projects = document.querySelector(".projects")
 
-for (let i = 0; i < projects.length; i++) {
-    const project = projects[i];
+for (let i = 0; i < projectsData.length; i++) {
+    const project = projectsData[i];
 
     createProjectHtml(project);
 }
 
 function createProjectHtml(project) {
-
-    projectsContainer.innerHTML +=
+    projects
+    projects.innerHTML +=
         `<div class="project-card" style="background-color: ${project.backgroundColor}; color: ${project.textColor}">
             <h2>${project.title}</h2>
             <h3>${project.assignment}</h3>
