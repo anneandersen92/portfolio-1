@@ -1,7 +1,4 @@
-@import url(imports/constants.css);
-@import url(imports/variables.css);
-@import url(components/header.css);
-
+@import url(variables.css);
 
 * {
     box-sizing: border-box;

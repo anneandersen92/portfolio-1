@@ -1,4 +1,4 @@
-import { projectsData } from "./data/projects.js";
+import { projectsData } from "./projects.js";
 
 const projects = document.querySelector(".projects")
 const sliderBtns = document.querySelector(".slider-btns")
