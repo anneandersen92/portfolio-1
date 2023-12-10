@@ -4,25 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
     <meta name="description" content="Anne Andersen's portfolio"/>
-    <!-- <meta name="theme-color" content="#333333" /> -->
     <title>Anne Andersen | Portfolio</title>
+    <link rel="icon" href="resources/images/portrait.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <header>
-        <nav>
-            <a href="#about">Anne</a>
-            <a href="#projects-slider">Projects</a>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <p>Hello I am Anne !</p>
-        </section>
-        <section id="projects-slider">
-            <div class="projects"></div>
-            <div class="slider-btn"></div>
-        </section>
+    <main style="color: var(--clr-charcoal);">
+      <h1>Hello I am Anne !</h1>
+      <section class="about">
+        <img src="resources/images/portrait.jpg" class="portrait">
+        <div>
+          <h2 style="display: none;">About</h2>
+          <p>Front-end Development Student</p>
+          <p>Noroff School of Technology</p>
+          <p>Study progress ... 49% ?</p>
+          <br>
+          <p>Sentece about interest in the field ...</p>
+        </div>
+        <div>
+          <h2>Competences</h2>
+          <p>International Marketing Bachelor</p>
+          <br>
+          <p>7 years as Visual Merchandiser and in Sales</p>
+          <br>
+          <p>Vocational Certificate in Sales</p>
+        </div>
+        <div class="links">
+          <h2 style="display: none;">Contact</h2>
+          <a href="mailto:anne_92@live.no"><img src="resources/icons/email_icon.png"></a>
+          <a href="https://www.linkedin.com/in/anne-andersen-7ba49b58"><img src="resources/icons/linkedin_icon.png"></a>
+        </div>
+      </section>
+      <section class="projects-slider">
+        <h2>Projects</h2>
+        <div class="projects"></div>
+        <div class="slider-btns"></div>
+      </section>
     </main>
     <script src="js/script.js" type="module"></script>
   </body>
