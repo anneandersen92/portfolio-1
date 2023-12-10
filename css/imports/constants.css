@@ -1,6 +1,6 @@
 @import url(./variables.css);
 
-.bg-rainydays {
+/* .bg-rainydays {
     background-color: var(--clr-rainydays);
 }
 
@@ -10,17 +10,17 @@
 
 .bg-ohsheet {
     background-color: var(--clr-ohsheet);
-}
+} */
 
-.type-white {
+/* .type-white {
     color: var(--clr-white);
 }
 
 .type-charcoal {
     color: var(--clr-charcoal);
-}
+} */
 
-.tt-uppercase {
+/* .tt-uppercase {
     text-transform: var(--tt-upper);
 }
 
@@ -30,4 +30,4 @@
 
 .tt-capitalize {
     text-transform: var(--tt-cap);
-}
+} */

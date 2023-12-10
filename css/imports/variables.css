@@ -8,23 +8,21 @@
     --clr-charcoal: #323232;
 
     /* typography */
-    --ff-heading: '';
-    --ff-body: '';
+    --ff: monospace;
 
-    --fs-h1: 4rem;
-    --fs-h2: 3rem;
-    --fs-h3: 2rem;
-    --fs-body: 1rem;
-    --fs-body-pc: 1.2rem;
+    --fs-h1: 2.6rem;
+    --fs-h2: 2rem;
+    --fs-h3: 1.4rem;
+    --fs-body: 1.1rem;
 
     --fw-300: 300;
-    --fw-500: 500;
+    --fw-600: 600;
 
-    --tt-upper: uppercase;
+    /* --tt-upper: uppercase;
     --tt-lower: lowercase;
     --tt-cap: capitalize;
 
     --ls-1: 1px;
     --ls-2: 2px;
-    --ls-3: 3px;
+    --ls-3: 3px; */
 }
