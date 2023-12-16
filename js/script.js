@@ -13,13 +13,13 @@ for (let i = 0; i < projectsData.length; i++) {
 function createProjectCardHtml(project) {
     projects.innerHTML +=
         `<div id="${project.id}" class="project-card" style="background-color: ${project.backgroundColor}; color: ${project.textColor};">
-            <h2>${project.title}</h2>
-            <h3>${project.assignment}</h3>
+            <h3>${project.title}</h3>
+            <h4>${project.assignment}</h4>
+            <img class="project-img" src="${project.img}" alt="${project.imgAlt}">
             <div class="links" style="filter: ${project.urlColor};">
                 <a href="${project.url}" class="netlify"><img src="../resources/icons/website_icon.png"></a>
                 <a href="${project.githubUrl}" class="git-hub"><img src="../resources/icons/github_icon.png"></a>
             </div>
-            <img class="project-img" src="${project.img}" alt="${project.imgAlt}">
         </div>`;
 };
 

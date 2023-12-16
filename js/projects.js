@@ -25,7 +25,7 @@ export const projectsData = [
     },
     {
         id: 3,
-        title: 'OH Sheet',
+        title: 'OH Sheet !',
         assignment: 'Project Exam 1',
         img: '../../resources/images/ohsheet.png',
         imgAlt: 'Screenshot of OH Sheet website',
